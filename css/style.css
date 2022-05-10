@@ -1247,3 +1247,46 @@ footer .credits a {
     bottom: 15px;
   }
 }
+
+.skill-mf .title-s{
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.buttonResume {
+  display: inline-flex;
+  height: 50px;
+  padding: 0;
+  background: rgb(115, 190, 248);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.buttonResume:hover {
+  background: #009AFF;
+}
+
+.buttonResume:active {
+  background: #0066FF;
+}
+
+.buttonResumeText,
+.buttonResumeIcon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  color: white;
+  height: 100%;
+}
+
+.buttonResumeIcon {
+  font-size: 1.5em;
+  background-color: rgba(0, 0, 0, 0.08);
+}
